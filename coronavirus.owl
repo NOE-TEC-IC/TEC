@@ -1,0 +1,689 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ponch/ontologies/2020/2/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ponch/ontologies/2020/2/untitled-ontology-3">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#enfermedad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paises_infectados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#persona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sintoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tratamiento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_Sintoma_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_tratamiento_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esta_diagnosticado_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_trata_con"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sexo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ultimo_viaje"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H1N1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alemania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#analgesicos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antihistaminicos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antivioticos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antivirales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cansancio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#china"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#corea_del_sur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coronavirus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#descongestionantes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dolor_articular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dolor_de_cabeza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dolor_de_garganta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dolor_muscular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#españa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#esteroides"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#expectorantes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fiebre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#francia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#italia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#japon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nitazoxanida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pablo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pedro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#secresion_nasal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tos_seca"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#enfermedad"/>
+        <NamedIndividual IRI="#H1N1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#alemania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#analgesicos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#antihistaminicos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#antivioticos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#antivirales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#cansancio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#china"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#corea_del_sur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#enfermedad"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#descongestionantes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#dolor_articular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#dolor_de_cabeza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#dolor_de_garganta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#dolor_muscular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#españa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#esteroides"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#expectorantes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#fiebre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#francia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#iran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#italia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paises_infectados"/>
+        <NamedIndividual IRI="#japon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tratamiento"/>
+        <NamedIndividual IRI="#nitazoxanida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#persona"/>
+        <NamedIndividual IRI="#pablo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#persona"/>
+        <NamedIndividual IRI="#pedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#secresion_nasal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sintoma"/>
+        <NamedIndividual IRI="#tos_seca"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#analgesicos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#antihistaminicos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#antivioticos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#antivirales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#descongestionantes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#expectorantes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#cansancio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#dolor_articular"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#dolor_de_cabeza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#dolor_de_garganta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#dolor_muscular"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#fiebre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#secresion_nasal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <NamedIndividual IRI="#tos_seca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#alemania"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#china"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#corea_del_sur"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <NamedIndividual IRI="#analgesicos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <NamedIndividual IRI="#antivirales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <NamedIndividual IRI="#esteroides"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <NamedIndividual IRI="#nitazoxanida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <NamedIndividual IRI="#cansancio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <NamedIndividual IRI="#fiebre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <NamedIndividual IRI="#tos_seca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#españa"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#francia"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#iran"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#italia"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <NamedIndividual IRI="#japon"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_diagnosticado_de"/>
+        <NamedIndividual IRI="#pablo"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esta_diagnosticado_de"/>
+        <NamedIndividual IRI="#pedro"/>
+        <NamedIndividual IRI="#coronavirus"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#H1N1"/>
+        <Literal>H1N1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#alemania"/>
+        <Literal>alemania</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#analgesicos"/>
+        <Literal>analgesicos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#antihistaminicos"/>
+        <Literal>antihistaminicos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#antivioticos"/>
+        <Literal>antivioticos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#antivirales"/>
+        <Literal>antivirales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#cansancio"/>
+        <Literal>cansancio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#china"/>
+        <Literal>china</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#corea_del_sur"/>
+        <Literal>corea del sur</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#coronavirus"/>
+        <Literal>coronavirus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#descongestionantes"/>
+        <Literal>descongestionantes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#dolor_articular"/>
+        <Literal>dolor articular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#dolor_de_cabeza"/>
+        <Literal>dolor de cabeza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#dolor_de_garganta"/>
+        <Literal>dolor de garganta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#dolor_muscular"/>
+        <Literal>dolor muscular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#españa"/>
+        <Literal>españa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#esteroides"/>
+        <Literal>esteroides</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#expectorantes"/>
+        <Literal>expectorantes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#fiebre"/>
+        <Literal>fiebre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#francia"/>
+        <Literal>francia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#iran"/>
+        <Literal>iran</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#italia"/>
+        <Literal>italia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#japon"/>
+        <Literal>japon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#nitazoxanida"/>
+        <Literal>nitazoxanida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#pablo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#pablo"/>
+        <Literal>pablo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexo"/>
+        <NamedIndividual IRI="#pablo"/>
+        <Literal>masculino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ultimo_viaje"/>
+        <NamedIndividual IRI="#pablo"/>
+        <Literal>madagascar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#pedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#pedro"/>
+        <Literal>pedro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexo"/>
+        <NamedIndividual IRI="#pedro"/>
+        <Literal>masculino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ultimo_viaje"/>
+        <NamedIndividual IRI="#pedro"/>
+        <Literal>china</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#secresion_nasal"/>
+        <Literal>secresion nasal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#tos_seca"/>
+        <Literal>tos seca</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#es_Sintoma_de"/>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#es_tratamiento_de"/>
+        <ObjectProperty IRI="#se_trata_con"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_Sintoma_de"/>
+        <Class IRI="#sintoma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_tratamiento_de"/>
+        <Class IRI="#tratamiento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esta_diagnosticado_de"/>
+        <Class IRI="#persona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <Class IRI="#paises_infectados"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <Class IRI="#enfermedad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <Class IRI="#enfermedad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_Sintoma_de"/>
+        <Class IRI="#enfermedad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_tratamiento_de"/>
+        <Class IRI="#enfermedad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esta_diagnosticado_de"/>
+        <Class IRI="#enfermedad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esta_infectado__de"/>
+        <Class IRI="#enfermedad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#se_trata_con"/>
+        <Class IRI="#tratamiento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_sintoma"/>
+        <Class IRI="#sintoma"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edad"/>
+        <Class IRI="#persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#enfermedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#paises_infectados"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#sintoma"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#tratamiento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sexo"/>
+        <Class IRI="#persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ultimo_viaje"/>
+        <Class IRI="#persona"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#edad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sexo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ultimo_viaje"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
